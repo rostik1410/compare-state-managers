@@ -22,3 +22,7 @@ export type User = {
         bs: string,
     }
 }
+
+export type SimpleUser = Omit<User, 'address' | 'company' > & {
+    [key: string]: number | string ,
+};

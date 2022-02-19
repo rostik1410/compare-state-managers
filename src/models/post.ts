@@ -5,3 +5,6 @@ export type Post = {
     body: string,
     title: string
 }
+
+
+export type PostCreate = Omit<Post, 'id'>

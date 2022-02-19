@@ -1,5 +1,5 @@
-import * as PostsApi from './posts-api';
-import * as UsersApi from './users-api';
+import PostsApi from './posts-api';
+import UsersApi from './users-api';
 
 export {
     PostsApi,
